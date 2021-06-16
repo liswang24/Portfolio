@@ -1,0 +1,30 @@
+@import "./layout.module.css";
+
+#smiley {
+    color: var(--accent);
+    font-size: 180px;
+    grid-area: smile;
+    margin-left: 100px;
+}
+
+#hi {
+    font-size: 64px;
+    grid-area: hi;
+    margin: 0px;
+    align-self: end;
+    padding-bottom: 20px;
+}
+
+.introduction {
+    grid-area: intro;
+    margin: 0px;
+}
+
+.intro {
+    border-style: solid;
+    padding: 60px;
+    margin-top: 2%;
+    display: grid;
+    grid-template-areas: 'hi smile''intro smile';
+    align-content: center;
+}

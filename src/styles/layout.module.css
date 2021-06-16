@@ -1,0 +1,17 @@
+:root {
+    --accent: #E7AD99;
+    --font: "inconsolata";
+}
+
+* {
+  font-family: var(--font);
+  color: black;
+}
+
+h1 {
+  color: var(--accent);
+}
+
+body {
+  margin: 1% 2%;
+}
