@@ -1,13 +1,13 @@
 @import "./layout.module.css";
 
-#smiley {
+#smileFace {
     color: var(--accent);
     font-size: 180px;
     grid-area: smile;
     margin-left: 100px;
 }
 
-#hi {
+#greeting {
     font-size: 64px;
     grid-area: hi;
     margin: 0px;
@@ -15,16 +15,35 @@
     padding-bottom: 20px;
 }
 
-.introduction {
+.intro-text {
     grid-area: intro;
     margin: 0px;
 }
 
-.intro {
+.intro-content {
+    background-color: #ffffff;
     border-style: solid;
     padding: 60px;
-    margin-top: 2%;
     display: grid;
     grid-template-areas: 'hi smile''intro smile';
     align-content: center;
+    grid-area: 2 / 2 / span 2 /span 2;
+}
+
+.home-page-content {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 20% 400px 20%;
+}
+
+.grid-pattern {
+    grid-area: 1 / 1 / span 2 / span 2;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--accent);
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to left, var(--accent) 2px, transparent 2px),
+        linear-gradient(to top, var(--accent) 2px, transparent 2px);
 }
