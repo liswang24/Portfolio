@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+import PDF from '../../public/static/resume.pdf'
 import {
     navLinkHome,
     navigationBar,
@@ -20,7 +21,7 @@ const Navbar = () => {
                     <Link className={navLinkText}>Projects</Link>
                 </li>
                 <li className={navLinkItem}>
-                    <Link className={navLinkText}>Resume</Link>
+                    <a className={navLinkText} rel="noopener noreferrer" href={PDF} target="_blank">Resume</a>
                 </li>
                 <li className={navLinkItem}>
                     <Link className={navLinkText}>Contact</Link>
