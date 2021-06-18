@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import PDF from '../../public/static/resume.pdf'
+import PDF from '../../static/resume.pdf'
 import {
     navLinkHome,
     navigationBar,
