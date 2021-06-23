@@ -24,7 +24,7 @@ const ContactPage = () => {
             <div>
                 <h2>Socials</h2>
                 <div className={socialsLink}>
-                    <StaticImage src="../images/githublogo.png" alt="GitHub Logo"/>
+                    <StaticImage src="../images/linkedinlogo.png" alt="GitHub Logo"/>
                     <a 
                         id={link}
                         href="https://www.linkedin.com/in/lisajialeiwang/" 
@@ -34,7 +34,7 @@ const ContactPage = () => {
                 </div>
                 <br />
                 <div className={socialsLink}>
-                    <StaticImage src="../images/linkedinlogo.png" alt="LinkedIn Logo" />
+                    <StaticImage src="../images/githublogo.png" alt="LinkedIn Logo" />
                     <a 
                         id={link}
                         href="https://github.com/liswang24" 
