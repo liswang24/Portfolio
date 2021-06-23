@@ -13,6 +13,7 @@
     margin: 0px;
     align-self: end;
     padding-bottom: 20px;
+    color: var(--accent);
 }
 
 .intro-text {
@@ -46,4 +47,4 @@
     background-image:
         linear-gradient(to left, var(--accent) 2px, transparent 2px),
         linear-gradient(to top, var(--accent) 2px, transparent 2px);
-}
+  }

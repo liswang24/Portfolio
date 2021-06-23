@@ -18,13 +18,18 @@ const Navbar = () => {
                     <Link to="/about" className={navLinkText}>About</Link>
                 </li>
                 <li className={navLinkItem}>
-                    <Link className={navLinkText}>Projects</Link>
+                    <Link to="/projects" className={navLinkText}>Projects</Link>
                 </li>
                 <li className={navLinkItem}>
-                    <a className={navLinkText} rel="noopener noreferrer" href={PDF} target="_blank">Resume</a>
+                    <a 
+                        className={navLinkText} 
+                        rel="noopener noreferrer" 
+                        href={PDF} 
+                        target="_blank"
+                    >Resume</a>
                 </li>
                 <li className={navLinkItem}>
-                    <Link className={navLinkText}>Contact</Link>
+                    <Link to="/contact" className={navLinkText}>Contact</Link>
                 </li>
             </ul>
       </nav>
