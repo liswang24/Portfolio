@@ -1,0 +1,28 @@
+.project-tile {
+    border: solid #000000;
+    padding: 20px;
+    margin: 30px;
+}
+
+.project-image {
+    border: solid var(--accent);
+    width: 100%;
+    height: 180px;
+    /* fix uneven edge spacing */
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 60px;
+}
+
+.skills-section {
+
+}
+
+.skill {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}

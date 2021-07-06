@@ -24,7 +24,3 @@
 .form-textarea:focus {
     outline: none;
 }
-
-#contact-button {
-    float: right;
-}

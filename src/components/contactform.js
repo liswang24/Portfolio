@@ -2,8 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import {
     formInput,
-    formTextarea,
-    contactButton
+    formTextarea
 } from '../styles/contactForm.module.css'
 
 function ContactForm() {
@@ -50,7 +49,7 @@ function ContactForm() {
         errors={state.errors}
       />
       <br />
-      <button id={contactButton} type="submit" disabled={state.submitting}>
+      <button type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>
