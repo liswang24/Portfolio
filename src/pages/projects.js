@@ -13,7 +13,7 @@ const ProjectsPage = () => {
         <ProjectTile 
           projectName="Project1"
           projectImg="" 
-          projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in dui eget quam ultrices tincidunt non sit amet sem. Cras bibendum enim sit amet ligula maximus feugiat. In vitae felis mi."
+          projectDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae felis mi."
           buttonLinkName="View on GitHub"
           buttonLink=""
         />
