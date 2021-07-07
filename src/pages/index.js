@@ -7,11 +7,12 @@ import {
   homePageContent,
   gridPattern
 } from '../styles/index.module.css'
-import Layout from '../components/layout'
+import Navbar from '../components/navbar'
 
 const IndexPage = () => {
   return (
-    <Layout >
+    <main>
+      <Navbar />
       <div className={homePageContent}>
         <div className={gridPattern}></div>
         <div className={introContent}>
@@ -20,7 +21,7 @@ const IndexPage = () => {
           <p className={introText}>I’m Lisa (Jialei) Wang, an electrical engineering student at UBC, aspiring fullstack developer, and an avid builder of IKEA furniture.</p>
         </div>
       </div>
-    </Layout>
+    </main>
   )
 }
 export default IndexPage

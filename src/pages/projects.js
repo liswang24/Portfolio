@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import ProjectTile from '../components/projecttile'
 import {
   projects
-} from '../styles/projecttile.module.css'
+} from '../styles/projects.module.css'
 
 const ProjectsPage = () => {
   return (

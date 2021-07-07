@@ -1,24 +1,22 @@
 .project-tile {
     border: solid #000000;
     padding: 20px;
-    margin: 30px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px;
 }
 
 .project-image {
     border: solid var(--accent);
-    width: 100%;
+    width: 98%;
     height: 180px;
-    /* fix uneven edge spacing */
+    margin-left: auto;
 }
 
 .projects {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 60px;
-}
-
-.skills-section {
-
+    column-gap: 40px;
+    row-gap: 40px;
 }
 
 .skill {
