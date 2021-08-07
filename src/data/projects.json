@@ -2,22 +2,23 @@
   {
     "name": "Project 1",
     "description": "This is the first project and this is a description of what it does",
-    "skills": ["c++", "react", "python"],
     "buttonText": "View on GitHub",
     "buttonLink":"",
-    "img": "../images/tempImg2.webp"
+    "img": "../images/tempImg2.webp",
+    "skills": ["JavaScript","C++","Python"]
   },
   {
     "name": "Project 2",
     "description": "This is the second project and this is a description of what it does",
-    "img": "../images/tempImg1.webp"
+    "img": "../images/tempImg1.webp",
+    "skills": ["HTML","C++"]
   },
   {
     "name": "Project 3",
     "description": "This is the third project and this is a description of what it does",
     "image": "../images/tempImg1.webp",
-    "skills": ["skill 1","skill 3"],
     "buttonText": "Learn More",
-    "buttonLink":""
+    "buttonLink":"",
+    "skills": ["Python","C++","GraphQL"]
   }
 ]

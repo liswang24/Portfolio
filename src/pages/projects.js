@@ -10,7 +10,7 @@ const ProjectsPage = ({ data }) => {
   return (
     <Layout>
       <div className={projects}>
-        {data.allProjectsJson.edges.map(edges => <ProjectTile project={edges.node} />)}
+        {(data.allProjectsJson.edges) && (data.allProjectsJson.edges.map(project => <ProjectTile project={project.node} />))}
       </div>
     </Layout>
   )

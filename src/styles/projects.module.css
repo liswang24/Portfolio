@@ -37,8 +37,6 @@
     row-gap: 40px;
 }
 
-.skill {
-    height: 20px;
-    width: 20px;
-    margin-right: 10px;
+.skills-section {
+    column-count: 8;
 }
