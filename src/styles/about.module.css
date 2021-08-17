@@ -1,0 +1,15 @@
+.about-body {
+    background-color: white;
+    border: solid black;
+    padding: 5%;
+    columns: 2;
+}
+
+.headshot {
+    margin: 5%;
+}
+
+.aboutText {
+    font-size: x-large;
+    padding: 20% 0%;
+}
