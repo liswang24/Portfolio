@@ -8,6 +8,7 @@ import {
   skillsSection,
   projImg
 } from '../styles/projects.module.css'
+import{linkButton} from '../styles/layout.module.css'
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -15,7 +16,7 @@ class ProjectTile extends React.Component {
   render() {
     const renderLinkButton = () => {
       if (this.props.project.buttonText != null) {
-        return <button>{this.props.project.buttonText}</button>;
+        return <a className={linkButton} href={this.props.project.buttonLink} target="_blank" rel="noopener noreferrer">{this.props.project.buttonText}</a>
       } 
       else return
     }
