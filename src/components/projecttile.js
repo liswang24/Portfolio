@@ -6,6 +6,7 @@ import {
   projectDesc,
   projectTitle,
   skillsSection,
+  projImg
 } from '../styles/projects.module.css'
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
@@ -23,7 +24,8 @@ class ProjectTile extends React.Component {
   
     return (
       <main className={projectTile}>
-        <GatsbyImage image={projectImg} alt="" className={projectImage}/>   {/* TODO: add alt */}
+        {/* TODO: Fix rounded borders */}
+        <GatsbyImage image={projectImg} alt="Project Image" className={projectImage} imgClassName={projImg}/>
         <div className={projectDesc}>
           <h2 className={projectTitle}>{this.props.project.name}</h2>
           <p>{this.props.project.description}</p>
