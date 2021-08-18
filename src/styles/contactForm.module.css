@@ -1,6 +1,6 @@
 .form-input {
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid var(--accent);
     font-size: medium;
     margin: 0px 40px 20px 0px;
 }
@@ -13,7 +13,7 @@
     font-size: medium;
     width: 100%;
     height: 100%;
-    border: 1px solid;
+    border: 2px solid var(--accent);
     border-radius: 4px;
     resize: none;
     margin-bottom: 20px;

@@ -7,10 +7,11 @@ import {
     contactEmail,
     contactForm,
     socialsLink,
-    link
+    link,
+    credentials
 } from '../styles/contact.module.css'
 
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image" // TODO: Update to use Gatsby Image use the faster load thing?
 
 const ContactPage = () => {
   return (
@@ -20,7 +21,7 @@ const ContactPage = () => {
         <div>
           <h2>Socials</h2>
           <div className={socialsLink}>
-            <StaticImage src="../images/linkedinlogo.png" alt="GitHub Logo"/>
+            <StaticImage src="../images/logos/linkedin.png" alt="GitHub Logo"/>
             <a 
               id={link}
               href="https://www.linkedin.com/in/lisajialeiwang/" 
@@ -30,7 +31,7 @@ const ContactPage = () => {
           </div>
           <br />
           <div className={socialsLink}>
-            <StaticImage src="../images/githublogo.png" alt="LinkedIn Logo" />
+            <StaticImage src="../images/logos/github.png" alt="GitHub Logo" />
             <a 
               id={link}
               href="https://github.com/liswang24" 
@@ -44,6 +45,9 @@ const ContactPage = () => {
           <a id={link} href="mailto:liswang24@gmail.com">liswang24@gmail.com</a>
         </div>
         <ContactForm id={contactForm}/>
+      </div>
+      <div className={credentials}>
+        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
       </div>
     </Layout>
   )
