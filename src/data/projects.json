@@ -1,24 +1,44 @@
 [
   {
-    "name": "Project 1",
-    "description": "This is the first project and this is a description of what it does",
+    "name": "Smart Blind Automation",
+    "description": "An IOT blind attachment controlled via Google Assistant to move a set of roller blinds within desired range of positions.",
+    "buttonText": "See more on GitHub",
+    "buttonLink":"https://github.com/liswang24/Smart-Blind-Automation",
+    "img": "../images/projects/SmartBlindAutomation.png",
+    "skills": ["C++","3D Printing","OnShape","Circuit Design","Arduino","Markdown"]
+  },
+  {
+    "name": "Portfolio Site",
+    "description": "This site you're currently on! A website built and hosted using Gatsby, showcasing projects and contact info.",
+    "img": "../images/projects/Portfolio.png",
     "buttonText": "View on GitHub",
-    "buttonLink":"",
-    "img": "../images/tempImg2.webp",
-    "skills": ["JavaScript","C++","Python"]
+    "buttonLink":"https://github.com/liswang24/Portfolio",
+    "skills": ["HTML","CSS","React","JavaScript","JSON","GraphQL"]
   },
   {
-    "name": "Project 2",
-    "description": "This is the second project and this is a description of what it does",
-    "img": "../images/tempImg1.webp",
-    "skills": ["HTML","C++"]
+    "name": "Firmware Engineering Co-op",
+    "description": "Actively worked on a team within the NSG at Intel Corporation to test and implement feature module code and worked on developing features for the drive simulation program.",
+    "img": "../images/projects/Intel.png",
+    "skills": ["Python","C++","C","CMake","Markdown","JSON","PlantUML"]
   },
   {
-    "name": "Project 3",
-    "description": "This is the third project and this is a description of what it does",
-    "image": "../images/tempImg1.webp",
-    "buttonText": "Learn More",
-    "buttonLink":"",
-    "skills": ["Python","C++","GraphQL"]
+    "name": "Piano Playing Robot",
+    "description": "A PID controlled 4-bar linkage robot arm with capability to play basic tunes on a miniature piano.",
+    "img": "../images/projects/PianoPlayingRobot.jpg",
+    "buttonText": "More Info Coming Soon!",
+    "skills": ["3D Printing","OnShape","Circuit Design","C","Arduino","C++","Circuit Design"]
+  },
+  {
+    "name": "ECESS VP Student Life",
+    "description": "Coordinated several large and small scale social events – promoting undergraduate student engagement.",
+    "img": "../images/projects/ECESS.png",
+    "buttonText": "More Info Coming Soon!"
+  },
+  {
+    "name": "Autonomous Waste Robot",
+    "description": "An automated line following robot capable of distinguishing waste by material and disposal of waste into corresponding bins.",
+    "img": "../images/projects/Steve.png",
+    "buttonText": "More Info Coming Soon!",
+    "skills": ["Arduino","C","Circuit Design"]
   }
 ]
