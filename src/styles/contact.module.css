@@ -13,12 +13,6 @@
     margin: 20px;
 }
 
-.credentials {
-    margin: 10px 0 0;
-    text-align: right;
-    font-size: small;
-}
-
 #contact-header {
     grid-area: header;
     margin-top: auto;
