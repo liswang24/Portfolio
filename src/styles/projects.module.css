@@ -7,9 +7,9 @@
 .project-image {
     background: var(--accent);
     box-shadow: rgba(149, 157, 165, 0.2) 1.95px 1.95px 2.6px;
-    border: solid 5px var(--accent);
+    border: solid var(--accent);
     border-radius: 20px;
-    height: 200px;
+    height: 24vh;
     margin-left: auto;
     grid-area: 1 / 1 / span 2 / span 2;
 }
@@ -19,8 +19,14 @@
     background: #ffffff;
     border: solid #000000;
     border-radius: 20px;
-    padding: 80px 20px 20px 20px;
+    min-height: 20vh;
+    padding: 12vh 20px 20px;
+    margin-bottom: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 1.95px 1.95px 2.6px;
+}
+
+.desc-text {
+    min-height: 9vh;
 }
 
 .project-title {
@@ -39,6 +45,8 @@
 
 .skills-section {
     column-count: 8;
+    min-height: 32px;
+    margin-bottom: 10px;
 }
 
 .proj-img {

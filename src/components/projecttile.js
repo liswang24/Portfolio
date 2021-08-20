@@ -6,6 +6,7 @@ import {
   projectDesc,
   projectTitle,
   skillsSection,
+  descText,
   projImg
 } from '../styles/projects.module.css'
 import{linkButton} from '../styles/layout.module.css'
@@ -27,8 +28,8 @@ class ProjectTile extends React.Component {
       <main className={projectTile}>
         <GatsbyImage image={projectImg} alt="Project Image" className={projectImage} imgClassName={projImg}/>
         <div className={projectDesc}>
-          <h2 className={projectTitle}>{this.props.project.name}</h2>
-          <p>{this.props.project.description}</p>
+          <h3 className={projectTitle}>{this.props.project.name}</h3>
+          <p className={descText}>{this.props.project.description}</p>
           <div className={skillsSection}>
             {(this.props.project.skills) && (this.props.project.skills.map(item => <SkillLogo skill={item}/>))}
           </div>
