@@ -5,11 +5,18 @@
     columns: 2;
 }
 
-.headshot {
-    margin: 5%;
+.about-text {
+    margin: 30% 0 auto 10%;
 }
 
-.aboutText {
-    font-size: x-large;
-    padding: 20% 0%;
+#link {
+    color: var(--accent);
+}
+
+#link:hover {
+    color: black;
+}
+
+#link:active {
+    box-shadow: 1px 1px;
 }

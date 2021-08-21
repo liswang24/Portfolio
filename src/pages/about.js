@@ -3,22 +3,25 @@ import Layout from '../components/layout'
 import {
   aboutBody,
   aboutText,
-  headshot
+  link
 } from '../styles/about.module.css'
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from 'gatsby'
 
 const AboutPage = () => { 
   return (
     <Layout>
      <div className={aboutBody}>
-        <StaticImage className={headshot} src="../images/lisa_headshot.jpeg" alt= "Lisa Wang Headshot"/> {/* TODO: ess with gatsby image plugin parameters */}
-        <p className={aboutText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non neque dignissim, volutpat nulla in, 
-          scelerisque urna. Donec blandit, elit et auctor venenatis, nisi mi finibus ligula, sed pretium mauris quam venenatis diam. 
-          Cras dapibus dolor et iaculis tempor. Phasellus dignissim mi nec mollis rhoncus. Donec at lorem sit amet odio finibus semper. 
-          Aliquam laoreet maximus sem vitae commodo. Aliquam non luctus diam. Duis nec risus diam. Mauris sollicitudin risus at purus 
-          hendrerit, et mollis neque dignissim. Cras dignissim lacinia libero, sed posuere libero vestibulum sit amet.</p>
+        <StaticImage src="../images/LisaHeadshot.jpg" alt= "Lisa Wang Headshot"/>
+        <div className={aboutText}>
+          <h2>Hello and nice to meet you!</h2>
+          <p>My name is <mark>Lisa</mark>. I am an aspiring <mark>full-stack developer</mark> based in Vancouver, Canada.</p>
+          <p>I am currently returning to my fourth year of electrical engineering at the <mark>University of British Columbia</mark> in the biomedical option. I have previously completed firmware engineering co-op work terms at <mark>Intel Corporation</mark> and have spent this past summer developing some <Link to="/projects" id={link}>personal projects</Link> and self-learning front-end skills and programming languages.</p> 
+          <p>In my free time, I like to enjoy sunny days on the beach, easy hikes, picking up new hobbies, and fiddling with personal projects.</p> 
+          <p>Additionally, I am <mark>seeking a January 2022 co-op work term</mark> as well as looking for club or <mark>design team</mark> opportunities at school to further grow my software skill set.</p>
+        </div>
      </div>
-     {/* Future: Add skills section */}
+     {/* Future TODO: Add skills section */}
     </Layout>
   )
 }

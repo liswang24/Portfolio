@@ -28,6 +28,10 @@ h3 {
   font-size: 22px;
 }
 
+mark {
+  background-color: rgba(231, 173, 153, 0.5);
+}
+
 button {
   background-color: var(--accent);
   font-size: medium;
