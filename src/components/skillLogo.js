@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 
-// TODO: Display skill name on hover (SyntheticEvent) on hover shade skill and put name under
-
 const SkillLogo = ({skill}) => {
     // More skills to be added as needed
     switch(skill) {
@@ -41,7 +39,6 @@ const SkillLogo = ({skill}) => {
         default:
             return null
     }
-    
 }
 
 export default SkillLogo

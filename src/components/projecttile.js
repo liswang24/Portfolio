@@ -1,5 +1,5 @@
 import * as React from 'react'
-import SkillLogo from './skillLogo'
+import Skill from './skill'
 import {
   projectTile,
   projectImage,
@@ -31,7 +31,7 @@ class ProjectTile extends React.Component {
           <h3 className={projectTitle}>{this.props.project.name}</h3>
           <p className={descText}>{this.props.project.description}</p>
           <div className={skillsSection}>
-            {(this.props.project.skills) && (this.props.project.skills.map(item => <SkillLogo skill={item}/>))}
+            {(this.props.project.skills) && (this.props.project.skills.map(item => <Skill skill={item}/>))}
           </div>
           {renderLinkButton()}
         </div>

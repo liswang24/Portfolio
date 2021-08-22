@@ -53,3 +53,28 @@
 .proj-img {
     border-radius: 20px;
 }
+
+.skill-wrap {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+.skill-name {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: small;
+    text-align: center;
+    background: rgba(231, 173, 153, 0.8);
+}
+  
+.skill-wrap:hover .skill-name {
+    visibility: visible;
+}
