@@ -26,7 +26,7 @@
     "description": "A PID controlled 4-bar linkage robot arm with capability to play basic tunes on a miniature piano.",
     "img": "../images/projects/PianoPlayingRobot.jpg",
     "buttonText": "More Info Coming Soon!",
-    "skills": ["3D Printing","OnShape","Circuit Design","C","Arduino","C++","Circuit Design"]
+    "skills": ["3D Printing","OnShape","Circuit Design","C","Arduino","C++"]
   },
   {
     "name": "ECESS VP Student Life",
