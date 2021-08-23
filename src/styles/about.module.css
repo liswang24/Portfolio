@@ -1,12 +1,21 @@
+@media screen and (min-width: 1281px) {
+    .about-body {
+        padding: 4%;
+        column-count: 2;
+        column-gap: 3%;
+    }
+}
 .about-body {
-    background-color: white;
-    border: solid black;
-    padding: 5%;
-    columns: 2;
+    padding: 4%;
 }
 
 .about-text {
-    margin: 30% 0 auto 10%;
+    background-color: white;
+    border: solid black;
+    margin-top: 10%;
+    padding: 10%;
+
+    
 }
 
 #link {
