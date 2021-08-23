@@ -36,17 +36,34 @@
     text-shadow: #000000;
 }
 
+/* 3 Column View */
+@media screen and (min-width: 801px) {
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+}
+/* 2 Column View */
+@media screen and (min-width: 801px) and (max-width: 1281px){
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+}
+/* Otherwise 1 Column View */
 .projects {
     display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 40px;
     row-gap: 40px;
 }
 
 .skills-section {
-    column-width: 32px;
+    column-width: 30px;
     column-count: auto;
-    min-height: 32px;
+    min-height: 30px;
     margin-bottom: 2vh;
 }
 
@@ -58,7 +75,7 @@
     position: relative;
     width: 32px;
     height: 32px;
-  }
+}
   
 .skill-name {
     visibility: hidden;
