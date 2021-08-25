@@ -14,26 +14,63 @@
     grid-area: 1 / 1 / span 2 / span 2;
 }
 
+.proj-img {
+    border-radius: 20px;
+}
+
 .project-desc {
     grid-area: 2 / 2 / span 2 /span 2;
     background: #ffffff;
     border: solid #000000;
-    border-radius: 20px;
-    min-height: 20vh;
-    padding: 12vh 20px 20px;
-    margin-bottom: 10px;
+    padding: 15vh 20px 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 1.95px 1.95px 2.6px;
+    min-height: 30vh;
 }
 
-.desc-text {
-    min-height: 9vh;
+.project-desc-text {
+    display:flex;
+    flex-direction: column;
 }
 
 .project-title {
     text-align: right;
-    margin-bottom: 0;
-    font-weight: 900;
-    text-shadow: #000000;
+    text-shadow: 2px #000000;
+}
+
+.desc-text {
+    min-height: 10vh;
+}
+
+.skills-section {
+    display: flex;
+    min-height: 32px;
+    margin-bottom: 2vh;
+}
+
+.skill-wrap {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+  
+.skill-name {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: small;
+    text-align: center;
+    background: rgba(231, 173, 153, 0.8);
+}
+  
+.skill-wrap:hover .skill-name {
+    visibility: visible;
 }
 
 /* 3 Column View */
@@ -58,40 +95,4 @@
 .projects {
     display: grid;
     row-gap: 40px;
-}
-
-.skills-section {
-    column-width: 30px;
-    column-count: auto;
-    min-height: 30px;
-    margin-bottom: 2vh;
-}
-
-.proj-img {
-    border-radius: 20px;
-}
-
-.skill-wrap {
-    position: relative;
-    width: 32px;
-    height: 32px;
-}
-  
-.skill-name {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: small;
-    text-align: center;
-    background: rgba(231, 173, 153, 0.8);
-}
-  
-.skill-wrap:hover .skill-name {
-    visibility: visible;
 }

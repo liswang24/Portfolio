@@ -8,9 +8,9 @@
     "skills": ["C++","3D Printing","OnShape","Circuit Design","Arduino","Markdown"]
   },
   {
-    "name": "Portfolio Site",
+    "name": "Portfolio Website",
     "description": "This site you're currently on! A website built and hosted using Gatsby, showcasing projects and contact info.",
-    "img": "../images/projects/Portfolio.png",
+    "img": "../images/projects/PortfolioSite.png",
     "buttonText": "View on GitHub",
     "buttonLink":"https://github.com/liswang24/Portfolio",
     "skills": ["HTML","CSS","React","JavaScript","JSON","GraphQL"]

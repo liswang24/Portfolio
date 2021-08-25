@@ -4,6 +4,7 @@ import {
   projectTile,
   projectImage,
   projectDesc,
+  projectDescText,
   projectTitle,
   skillsSection,
   descText,
@@ -28,10 +29,12 @@ class ProjectTile extends React.Component {
       <main className={projectTile}>
         <GatsbyImage image={projectImg} alt="Project Image" className={projectImage} imgClassName={projImg}/>
         <div className={projectDesc}>
+          <div className={projectDescText}>
           <h3 className={projectTitle}>{this.props.project.name}</h3>
           <p className={descText}>{this.props.project.description}</p>
           <div className={skillsSection}>
             {(this.props.project.skills) && (this.props.project.skills.map(item => <Skill skill={item}/>))}
+          </div>
           </div>
           {renderLinkButton()}
         </div>
