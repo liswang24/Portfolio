@@ -1,34 +1,26 @@
 @import "./layout.module.css";
 
-#smileFace {
-    color: var(--accent);
-    font-size: 180px;
-    grid-area: smile;
-    margin-left: 100px;
-}
-
 #greeting {
     font-size: 64px;
-    grid-area: hi;
-    margin: 0px;
     align-self: end;
-    padding-bottom: 20px;
     color: var(--accent);
 }
 
 .intro-text {
-    grid-area: intro;
-    margin: 0px;
+    width: 50vw;
 }
 
 .intro-content {
-    background-color: #ffffff;
-    border-style: solid;
-    padding: 60px;
-    display: grid;
-    grid-template-areas: 'hi smile''intro smile';
-    align-content: center;
     grid-area: 2 / 2 / span 2 /span 2;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    background-color: #ffffff;
+    border: solid;
+    padding: 5%;
 }
 
 .home-page-content {
