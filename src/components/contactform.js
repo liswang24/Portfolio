@@ -2,7 +2,8 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import {
     formInput,
-    formTextarea
+    formTextarea,
+    contactForm
 } from '../styles/contactForm.module.css'
 
 function ContactForm() {
@@ -11,6 +12,8 @@ function ContactForm() {
       return <p>Thanks for reaching out!</p>;
   }
   return (
+    <div className={contactForm}>
+      <h3>Send me a message!</h3>
       <form onSubmit={handleSubmit}>
       <input
         className={formInput}
@@ -53,6 +56,7 @@ function ContactForm() {
         Submit
       </button>
     </form>
+  </div>
   );
 }
 

@@ -1,29 +1,33 @@
 .contact-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contact-info {
     border: solid;
     background-color: #ffffff;
     padding: 5%;
-    display: grid;
-    grid-area: 2 / 2 / span 1 /span 1;
-    grid-template-areas: 'header header''socials form''email form';
-}
-
-.socials-link {  
     display: flex;
-    align-items: center;
-    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
 }
 
-#contact-header {
-    grid-area: header;
-    margin-top: auto;
+@media screen and (max-width: 1024px) {
+    #contact-info {
+        justify-content: flex-start;
+    }
 }
 
-#contact-email {
-    grid-area: email;
+#socials-links {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-#contact-form {
-    grid-area: form;
+.socials-link-item {
+    margin: 0 20px 2vh 0vh;
 }
 
 #link {
