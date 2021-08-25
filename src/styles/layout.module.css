@@ -49,10 +49,18 @@ button:active {
   background-color: #ffffff;
 }
 
-.credentials {
+footer {
   margin: 10px 0 0;
   text-align: right;
   font-size: small;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  color: var(--accent);
 }
 
 .link-button {
