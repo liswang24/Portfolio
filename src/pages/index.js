@@ -1,4 +1,5 @@
 import * as React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   smileFace,
   greeting,
@@ -7,12 +8,14 @@ import {
   homePageContent,
   gridPattern
 } from '../styles/index.module.css'
-import Navbar from '../components/navbar'
+// import Navbar from '../components/navbar'
+import { StaticImage } from "gatsby-plugin-image"
+import Navigation from'../components/navigation'
 
 const IndexPage = () => {
   return (
     <main>
-      <Navbar />
+      <Navigation />
       <div className={homePageContent}>
         <div className={gridPattern}></div>
         <div className={introContent}>

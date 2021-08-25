@@ -57,6 +57,7 @@ button:active {
 
 .link-button {
   text-decoration: none;
+  color: black;
   background-color: var(--accent);
   font-size: medium;
   border: solid 2px black;
@@ -66,6 +67,7 @@ button:active {
 }
 
 .link-button:hover {
+  color: black;
   box-shadow: 1px 1px;
 }
 

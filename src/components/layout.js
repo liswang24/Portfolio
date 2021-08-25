@@ -6,12 +6,12 @@ import {
   gridBackground,
   credentials
 } from '../styles/layout.module.css'
-import Navbar from '../components/navbar'
+import Navigation from '../components/navigation'
 
 const Layout = ({ children }) => {
   return (
     <main>
-      <Navbar />
+      <Navigation />
       <div className={pageLayout}>
         <div className={gridBackground}></div>
         <div className={pageContent}>{children}</div>

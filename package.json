@@ -16,7 +16,7 @@
   "dependencies": {
     "@fontsource/inconsolata": "^4.4.5",
     "@formspree/react": "^2.2.3",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.1.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.5.0",
     "gatsby-plugin-image": "^1.8.0",
@@ -26,7 +26,7 @@
     "gatsby-transformer-json": "^3.9.0",
     "gatsby-transformer-sharp": "^3.8.0",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.6.1",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^17.0.1"
   }
 }
