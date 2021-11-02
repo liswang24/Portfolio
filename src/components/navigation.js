@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { Container, Navbar, Nav } from "react-bootstrap"
-import PDF from '../../static/LisaWangResume.pdf'
+import PDF from '../../static/Lisa Wang - Software Resume.pdf'
 import { navLinkHome } from '../styles/navigation.module.css'
 
 const Navigation = () => {
